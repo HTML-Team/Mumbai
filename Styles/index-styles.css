@@ -1,0 +1,81 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.center {
+    text-align: center;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    padding: 10px 0;
+}
+ul.flex-container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    background-color: midnightblue;
+}
+
+ .flex-container li {
+     width: 90px;
+     padding: 20px 30px;
+ }
+
+.flex-item-1 {
+    flex-grow: 1;
+
+}
+
+
+main {
+    background-color: lightgray;
+    padding-bottom: 20px;
+}
+
+main h1 {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.forum-content {
+    width: 65%;
+    float: left;
+}
+
+.blog-posts {
+    height: 320px;
+    overflow: auto;
+    background-color: white;
+    margin: 10px 30px;
+
+}

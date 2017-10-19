@@ -1,0 +1,124 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.center {
+    text-align: center;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    padding: 10px 0;
+}
+
+ul.flex-container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    background-color: midnightblue;
+}
+
+.flex-container li {
+    width: 90px;
+    padding: 20px 30px;
+}
+
+.flex-item-1 {
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+.flex-item-2, .flex-item-3 {
+    display: none;
+}
+
+main {
+    background-color: lightgray;
+    padding: 50px;
+
+}
+
+main h1 {
+    padding: 50px 15px;
+}
+
+fieldset {
+    margin: 0 auto;
+    width: 30%;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+fieldset label {
+    padding: 10px 15px;
+    display: block;
+}
+
+input {
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    padding: 5px 15px 15px 15px;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 5px 15px;
+    border-radius: 10px;
+    border:none;
+}
+
+.red {
+    color: red;
+    border: 3px solid red;
+}
+
+.green {
+    color: green;
+    border: 3px solid green;
+}
+
+button[type=submit]:hover {
+    background-color: green;
+    border-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+button[type=reset]:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+    cursor: pointer;
+}
