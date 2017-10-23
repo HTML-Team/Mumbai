@@ -68,14 +68,36 @@ h2 {
 }
 
 .forum-content {
+    border:1px solid black;
+
     width: 65%;
     float: left;
 }
 
 .blog-posts {
-    height: 320px;
+
+    height: 30%;
     overflow: auto;
     background-color: white;
     margin: 10px 30px;
+
+
+}
+/*#follow img{*/
+    /*size: 20%;*/
+/*}*/
+#icons{
+ width: 30%;
+    float: right;
+    /*margin: 0 auto;*/
+
+
+}
+#icons a {
+    padding: 30px;
+
+}
+#events{
+    text-align: center;
 
 }
