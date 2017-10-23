@@ -16,7 +16,8 @@ aside{
 }
 
 .text-uppercase {
-    text-transform: uppercase;
+    text-transform: capitalize;
+
 }
 
 .text-capitalize {
@@ -53,7 +54,20 @@ ul.flex-container {
      padding: 20px 30px;
  }
 
-.flex-item-1 {
+.flex-container a{
+    border:1px solid white;
+    padding: 10px 15px;
+    border-radius: 15px;
+
+}
+.flex-container a:hover{
+   color: midnightblue;
+    background-color: white;
+
+
+}
+
+.flex-item {
     flex-grow: 1;
 
 }
