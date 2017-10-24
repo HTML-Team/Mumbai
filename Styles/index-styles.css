@@ -9,6 +9,11 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
+
+body {
+    background: linear-gradient(180deg, #9bacc4, lightgray 50%, #9bacc4);
+}
+
 aside{
     float: right;
     width: 30%;
@@ -35,47 +40,17 @@ aside{
 }
 
 footer {
-    background-color: midnightblue;
+    background-color: #293f50;
     color: white;
     text-align: center;
     line-height: 50px;
     padding: 10px 0;
 }
-ul.flex-container {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-around;
-    background-color: midnightblue;
-    white-space: nowrap
-}
 
- .flex-container li {
-     width: 90px;
-     padding: 20px 30px;
- }
-
-.flex-container a{
-    border:1px solid white;
-    padding: 10px 15px;
-    border-radius: 15px;
-
-}
-.flex-container a:hover{
-   color: midnightblue;
-    background-color: white;
-
-
-}
-
-.flex-item {
-    flex-grow: 1;
-
-}
 
 
 main {
-    background-color: lightgray;
+
     padding-bottom: 20px;
 }
 
@@ -87,23 +62,9 @@ h2 {
     text-align: center;
 }
 
-.forum-content {
-    border:1px solid black;
-
-    width: 30%;
-    float: left;
-}
-
-.blog-posts {
-
-    height: 30%;
-
-
+.list-group {
     overflow: auto;
-    background-color: white;
-    margin: 10px 30px;
-
-
+    height: 300px;
 }
 #follow img{
     max-width: 50%;
@@ -118,4 +79,23 @@ h2 {
 #events{
     text-align: center;
 
+}
+
+.browse-files {
+    width: 200px;
+}
+
+
+input[type=url] {
+    display: none;
+    width: 20px;
+}
+
+.url-adress:hover input[type=url]:hover{
+    display: inline;
+    width: 100px;
+}
+
+ul.dropdown-menu label:hover {
+    cursor: pointer;
 }

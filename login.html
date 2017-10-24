@@ -3,40 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Styles/login-styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Login</title>
 </head>
 <body>
-<nav>
-    <ul class="flex-container">
-        <li class="flex-item-1">
-            <a href="index.html" class="text-uppercase">blog home page</a>
-        </li>
-        <li class="flex-item-2">
-            <a href="register.html" class="text-uppercase">register</a>
-        </li>
-        <li class="flex-item-3">
-            <a href="login.html" class="text-uppercase">login</a>
-        </li>
-    </ul>
+<nav class="navbar navbar-default">
+    <div class="containder-fluid">
+        <div class="navbar-header">
+            <a href="index.html" class="navbar-brand text-uppercase">blog home page</a>
+        </div>
+    </div>
 </nav>
 <main>
-    <fieldset>
-        <h1 class="text-uppercase">registration form</h1>
-        <form action="#">
-            <label for="username" class="text-capitalize"> username:
-                <input type="text" id="username" placeholder="Enter username">
-            </label>
 
+    <div class="container">
 
-            <label for="password" class="text-capitalize">password:
-                <input type="password" id="password" placeholder="Enter password">
-            </label>
-
-            <div class="button-container">
-                <button type="submit" class="text-uppercase btn green">login</button>
+            <h1 class="text-uppercase">login</h1>
+            <div class="col-sm-4">
+                <form action="#" class="form-group">
+                    <label for="username" class="text-capitalize"> username:</label>
+                    <input type="text" id="username" placeholder="Enter username" class="form-control">
+                    <label for="password" class="text-capitalize">password:</label>
+                    <input type="password" id="password" placeholder="Enter password" class="form-control">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
             </div>
-        </form>
-    </fieldset>
+
+    </div>
+
 </main>
 <footer>
     <p class="text-uppercase">&copy; team group project</p>
