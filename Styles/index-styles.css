@@ -11,7 +11,9 @@ a {
 }
 
 body {
-    background: linear-gradient(180deg, #9bacc4, lightgray 50%, #9bacc4);
+    /*background: linear-gradient(180deg, #9bacc4, lightgray 50%, #9bacc4);*/
+    background: url("../img/Background-Textures-27.jpg");
+ background-size: contain;
 }
 
 aside{
@@ -133,3 +135,20 @@ span.tags
     font-weight: bold;
     padding: 2px 4px;
     }
+.list-group-item a:nth-of-type(2){
+    float: right;
+    font-style: italic;
+
+}
+h1,h2{
+    /*padding: 10px 20px;*/
+    background: url("../img/grid-example.png");
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 2px solid darkgrey;
+
+
+
+
+}
