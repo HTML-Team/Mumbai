@@ -90,3 +90,12 @@ div.view-post{
     font-style: italic;
 
 }
+.view-post img{
+    width: 10%;
+    float: right;
+    padding-bottom: 5%;
+   }
+.view-post img:hover{
+    cursor: pointer;
+    
+}
