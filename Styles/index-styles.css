@@ -147,8 +147,8 @@ h1,h2{
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border: 2px solid darkgrey;
-
-
-
-
+}
+.table-header{
+    display: flex;
+    justify-content: space-between;
 }
