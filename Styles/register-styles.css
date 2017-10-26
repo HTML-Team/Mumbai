@@ -60,3 +60,33 @@ button.btn {
         font-size: 29px;
     }
 }
+div.col-sm-6{
+    width: 80%;
+}
+div.col-sm-6 .post-content{
+    width: 100%;
+
+}
+div.col-sm-6 form{
+    width: 80%;
+}
+.view-post{
+    border:2px solid darkgrey;
+    background: url("../img/grid-example.png");
+    width: 100%;
+    font-size: 16px;
+
+    border-radius: 10px;
+    padding: 10px 30px;
+
+}
+div.view-post{
+    margin-left: 60px;
+    background: white;
+
+
+}
+.view-post span,.view-post a{
+    font-style: italic;
+
+}

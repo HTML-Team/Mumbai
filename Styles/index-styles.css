@@ -69,12 +69,16 @@ h2 {
     height: 300px;
 }
 #follow img{
-    max-width: 50%;
+    width: 7%;
+    padding: 1%;
 
 
 }
+#follow img:hover{
+    padding: 0;
+}
 #icons{
- width: 100%;
+    width: 100%;
    text-align: center;
 }
 
